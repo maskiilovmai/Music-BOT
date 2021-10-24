@@ -14,6 +14,6 @@ exports.SOUNDCLOUD_CLIENT_ID = config ? config.SOUNDCLOUD_CLIENT_ID : process.en
 exports.PREFIX = (config ? config.PREFIX : process.env.PREFIX) || "/";
 exports.MAX_PLAYLIST_SIZE = (config ? config.MAX_PLAYLIST_SIZE : parseInt(process.env.MAX_PLAYLIST_SIZE)) || 10;
 exports.PRUNING = (config ? config.PRUNING : (process.env.PRUNING === 'true' ? true : false));
-exports.STAY_TIME = (config ? config.STAY_TIME : parseInt(process.env.STAY_TIME)) || 30;
+exports.STAY_TIME = (config ? config.STAY_TIME : parseInt(process.env.STAY_TIME)) || false;
 exports.DEFAULT_VOLUME = (config ? config.DEFAULT_VOLUME : parseInt(process.env.DEFAULT_VOLUME)) || 100;
-exports.LOCALE = (config ? config.LOCALE : process.env.LOCALE) || "en";
+exports.LOCALE = (config ? config.LOCALE : process.env.LOCALE) || "vi";

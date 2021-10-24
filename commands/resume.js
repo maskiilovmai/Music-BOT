@@ -3,7 +3,7 @@ const i18n = require("../util/i18n");
 
 module.exports = {
   name: "resume",
-  aliases: ["r"],
+  aliases: ["rs"],
   description: i18n.__("resume.description"),
   execute(message) {
     const queue = message.client.queue.get(message.guild.id);
