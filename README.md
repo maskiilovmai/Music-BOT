@@ -4,8 +4,8 @@
 
 ![logo](https://raw.githubusercontent.com/maskiilovmai/images/main/2021090208565599261.png)
 
-# 🤖 EvoBot (Discord Music Bot)
-> EvoBot is a Discord Music Bot built with discord.js & uses Command Handler from [discordjs.guide](https://discordjs.guide)
+# 🤖 Discord Music Bot
+> This is a Discord Music Bot (from EvoBot) built with discord.js & uses Command Handler from [discordjs.guide](https://discordjs.guide)
 
 ## Requirements
 
@@ -147,3 +147,7 @@ Currently available locales are:
 ## 📝 Credits
 
 [@iCrawl](https://github.com/iCrawl) For the queue system used in this application which was adapted from [@iCrawl/discord-music-bot](https://github.com/iCrawl/discord-music-bot)
+
+## 🔓 Source
+
+This is the code taken from the source is [EvoBot](https://github.com/eritislami/evobot), by [Erit Islami](https://github.com/eritislami). And edited by [me](https://github.com/maskiilovmai)
