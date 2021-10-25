@@ -6,6 +6,6 @@
   "PREFIX": "",
   "PRUNING": false,
   "LOCALE": "vi",
-  "STAY_TIME": false,
+  "STAY_TIME": null,
   "DEFAULT_VOLUME": 100
 }
