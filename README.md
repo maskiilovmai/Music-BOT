@@ -43,6 +43,9 @@ Copy or Rename `config.json.example` to `config.json` and fill out the values:
   "STAY_TIME": 30
 }
 ```
+## ☁ Hosting
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/maskiilovmai/Music-BOT)
 
 ## 🐬 Docker Configuration
 
