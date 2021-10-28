@@ -12,36 +12,37 @@
     }
   ],
   "env": {
-    "Prefix": {
-      "description": "The Discord Bot Prefix",
-      "required": "true"
-    },
-    "Token": {
+    "TOKEN": {
       "description": "The Discord Bot Token (https://discord.com/developers/applications)",
       "required": "true"
     },
-    "YouTube API Key": {
+    "YOUTUBE_API_KEY": {
       "description": "The Discord Bot YouTube API Key",
       "required": "true"
     },
-    "SoundCloud Client ID": {
-      "description": "The Discord Bot Client SoundCloud ID"
+    "SOUNDCLOUD_CLIENT_ID": {
+      "description": "The Discord Bot Client SoundCloud ID",
+      "required": "false"
     },
-    "Max Playlist Size": {
-      "description": "Max size for playlist, default is 10",
+    "MAX_PLAYLIST_SIZE": {
+      "description": "Max size for playlist, default is 10The Discord Bot Prefix",
       "value": "10"
     },
-    "Pruning": {
+    "PREFIX": {
+      "description": "The Discord Bot prefix",
+      "required": "true"
+    },
+    "PRUNING": {
       "description": "true or false",
       "required": "true"
     },
-    "Locale": {
+    "LOCALE": {
       "description": "The language for bot",
       "required": "true"
     },
-    "Default Volume": {
-      "description": "Set default volume for bot",
-      "required": "true"
+    "DEFAULT_VOLUME": {
+      "description": "Set default volume for bot, between 1 - 100",
+      "value": "100"
     }
   }
 }
