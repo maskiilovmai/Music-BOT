@@ -3,5 +3,46 @@
   "description": "🤖 Discord Music Bot built with discord.js",
   "repository": "https://github.com/eritislami/evobot",
   "logo": "https://i.imgur.com/JFxgbWH.png",
-  "keywords": ["discord", "discordjs", "music", "bot"]
+  "keywords": ["discord", "discordjs", "music", "bot"],
+
+  "image": "heroku/nodejs",
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ],
+  "env": {
+    "Prefix": {
+      "description": "The Discord Bot Prefix",
+      "required": "true"
+    },
+    "Token": {
+      "description": "The Discord Bot Token (https://discord.com/developers/applications)",
+      "required": "true"
+    },
+    "YouTube API Key": {
+      "description": "The Discord Bot YouTube API Key",
+      "required": "true"
+    },
+    "SoundCloud Client ID": {
+      "description": "The Discord Bot Client SoundCloud ID",
+      "required": "false"
+    },
+    "Max Playlist Size": {
+      "description": "Max size for playlist, default is 10",
+      "value": "10"
+    },
+    "Pruning": {
+      "description": "true or false",
+      "required": "true"
+    },
+    "Locale": {
+      "description": "The language for bot",
+      "required": "true"
+    },
+    "Default Volume": {
+      "description": "Set default volume for bot",
+      "required": "true"
+    }
+  }
 }
