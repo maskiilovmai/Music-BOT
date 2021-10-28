@@ -25,11 +25,11 @@
       "required": "false"
     },
     "MAX_PLAYLIST_SIZE": {
-      "description": "Max size for playlist, default is 10The Discord Bot Prefix",
+      "description": "Max size for playlist, default is 10",
       "value": "10"
     },
     "PREFIX": {
-      "description": "The Discord Bot prefix",
+      "description": "The Discord Bot Prefix",
       "required": "true"
     },
     "PRUNING": {
@@ -37,7 +37,7 @@
       "required": "true"
     },
     "LOCALE": {
-      "description": "The language for bot",
+      "description": "The language for bot, read README.md for language support",
       "required": "true"
     },
     "DEFAULT_VOLUME": {
