@@ -53,7 +53,7 @@ With Heroku:
 
 With Replit:
 
-[![Run on Repl.it](https://repl.it/badge/github/maskiilovmai/Music-BOT)](https://repl.it/github/maskiilovmai/music-bot-db)
+[![Run on Repl.it](https://repl.it/badge/github/maskiilovmai/Music-BOT)](https://github.com/maskiilovmai/Music-BOT)
 
 ## 🐬 Docker Configuration
 
