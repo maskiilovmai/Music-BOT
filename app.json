@@ -21,7 +21,7 @@
       "required": "true"
     },
     "SOUNDCLOUD_CLIENT_ID": {
-      "description": "The Discord Bot Client SoundCloud ID"
+      "description": "The Discord Bot Client SoundCloud ID, type null if you don't have this"
     },
     "MAX_PLAYLIST_SIZE": {
       "description": "Max size for playlist, default is 10",
