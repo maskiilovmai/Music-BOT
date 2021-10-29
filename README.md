@@ -17,7 +17,7 @@
 ## 🚀 Getting Started
 
 ```sh
-git clone https://github.com/eritislami/evobot.git
+git clone https://github.com/maskiilovmai/Music-BOT.git
 cd evobot
 npm install
 ```
