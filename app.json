@@ -39,6 +39,10 @@
       "description": "The language for bot, read README.md for language support",
       "required": "true"
     },
+    "STAY_TIME" : {
+      "description" : "The stay time bot in voice channel",
+      "required": "true"
+    },
     "DEFAULT_VOLUME": {
       "description": "Set default volume for bot, between 1 - 100",
       "value": "100"
