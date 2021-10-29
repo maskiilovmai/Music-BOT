@@ -115,7 +115,7 @@ Examples: `1` or `1,2,3`
 * Command Handler from [discordjs.guide](https://discordjs.guide/)
 * Media Controls via Reactions
 
-![reactions](https://i.imgur.com/9S7Omf9.png)
+![reactions](https://cdn.discordapp.com/attachments/888315045283500062/903634685144473641/unknown.png)
 
 ## 🌎 Locales
 
