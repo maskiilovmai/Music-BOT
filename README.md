@@ -43,9 +43,17 @@ Copy or Rename `config.json.example` to `config.json` and fill out the values:
   "STAY_TIME": 30
 }
 ```
-## ☁ Hosting
+## ☁ Hosting & Run Project
+
+You can deploy to Heroku or Replit with my template. This template created by [Maskiilov Mai](https://github.com/maskiilovmai)
+
+With Heroku:
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/maskiilovmai/Music-BOT)
+
+With Replit:
+
+[![Run on Repl.it](https://repl.it/badge)](https://repl.it/github/maskiilovmai/music-bot-db)
 
 ## 🐬 Docker Configuration
 
