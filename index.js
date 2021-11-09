@@ -85,16 +85,16 @@ client.on("message", async (message) => {
     message.reply(i18n.__("common.errorCommand")).catch(console.error);
   }
 });
-client.on('message', function(message) {
-  if (message.content === '-join') {
-      if(!message.member.voice.channel) return message.channel.send("Hãy kết nối với kênh thoại trước!"); //If you are not in the voice channel, then return a message
+// client.on('message', function(message) {
+//   if (message.content === '-join') {
+//       if(!message.member.voice.channel) return message.channel.send("Hãy kết nối với kênh thoại trước!"); //If you are not in the voice channel, then return a message
 
-      message.member.voice.channel.join(); //Join the voice channel
-  }
+//       message.member.voice.channel.join(); //Join the voice channel
+//   }
 
-  if (message.content === '-leave') {
-      if(!message.member.voice.channel) return; //u cant try disconnect without entering a vc
+//   if (message.content === '-leave') {
+//       if(!message.member.voice.channel) return; //u cant try disconnect without entering a vc
 
-      message.member.voice.channel.leave(); //Leave the voice channel
-  }
-});
+//       message.member.voice.channel.leave(); //Leave the voice channel
+//   }
+// });

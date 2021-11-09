@@ -156,7 +156,14 @@
     "enabled": "**kích hoạt*",
     "disabled": "**vô hiệu hóa**",
     "errorNotChannel": "Bạn cần tham gia một kênh thoại trước!",
-    "cooldownMessage": "xin vui lòng chờ {time} giây trước khi sử dụng lại lệnh `{name}`.",
+    "cooldownMessage": "Xin vui lòng chờ {time} giây trước khi sử dụng lại lệnh `{name}`.",
     "errorCommand": "Có lỗi xảy ra khi đang cố gắng thực hiện yêu cầu của bạn, vui lòng thử lại sau ít phút."
+  },
+  "uptime": {
+		"description": "Kiểm tra thời gian hoạt động."
+	},
+    "leave": {
+    "description": "Mời bot ra khỏi kênh thoại.",
+    "result": "Đã rời khỏi kênh thoại!"
   }
 }
