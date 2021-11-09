@@ -9,7 +9,7 @@
     "description": "Liệt kê tất cả đoạn âm thanh có sẵn"
   },
   "help": {
-    "description": "Hiển thị tất cả câu lệnh sẵn có và mô tỏ của nó.",
+    "description": "Hiển thị tất cả câu lệnh sẵn có và mô tả của nó.",
     "embedTitle": "{botname} Help",
     "embedDescription": "Hiện thị tất cả câu lệnh sẵn có."
   },
