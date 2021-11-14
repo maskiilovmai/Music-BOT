@@ -21,7 +21,7 @@ module.exports = {
     let resultsEmbed = new MessageEmbed()
       .setTitle(i18n.__("search.resultEmbedTitle"))
       .setDescription(i18n.__mf("search.resultEmbedDesc", { search: search }))
-      .setColor("#F8AA2A");
+      .setColor("RANDOM");
 
     try {
       const results = await youtube.searchVideos(search, 10);

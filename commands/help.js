@@ -11,7 +11,7 @@ module.exports = {
     let helpEmbed = new MessageEmbed()
       .setTitle(i18n.__mf("help.embedTitle", { botname: message.client.user.username }))
       .setDescription(i18n.__("help.embedDescription"))
-      .setColor("#F8AA2A");
+      .setColor("RANDOM");
 
     commands.forEach((cmd) => {
       helpEmbed.addField(
