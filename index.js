@@ -24,7 +24,24 @@ const escapeRegex = (str) => str.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
  */
 client.on("ready", () => {
   console.log(`${client.user.username} ready!`);
-  client.user.setActivity(`${PREFIX}help and ${PREFIX}play`, { type: "PLAYING" }); //Can change status PLAYING, WATCHING and LISTENING.
+  setInterval(() => {
+
+    const statuses = [
+        `${client.guilds.cache.size} servers!`, // Enables the bot to show how many servers it's in, in the status
+        `${client.channels.cache.size} channels!`, // Enables the bot to show how many channels it's in, in the status
+        `${client.users.cache.size} user!`,
+        `"${PREFIX}help" to help`,
+        `"${PREFIX}play" to play`,
+        "with Everyone",
+        "Music", // Enables the bot to send a message of your choice
+    ]
+
+    const status = statuses[Math.floor(Math.random() * statuses.length)] // Chooses a random list from statuses and puts it into a variable.
+    client.user.setActivity(status, { type: "STREAMING", url: "https://www.twitch.tv/nocopyrightsounds" }) // Status changer - WATCHING / LISTENING / STREAMING / DND / ONLINE
+
+}, 
+
+        5000)
 });
 client.on("warn", (info) => console.log(info));
 client.on("error", console.error);
